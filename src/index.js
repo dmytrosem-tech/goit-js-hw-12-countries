@@ -1,5 +1,5 @@
 import './css/styles.css';
-<<<<<<< HEAD
+import fCountries from './js/fetchCountries.js';
 import countryListTpl from './templates/countries.hbs';
 import countryCardTpl from './templates/country.hbs';
 import debounce from 'lodash.debounce';
@@ -22,7 +22,6 @@ function onEnterName(e) {
     .then(renderResultOfSearch)
     .catch(err => console.log(err));
 }
-// console.log('lol');
 
 function renderResultOfSearch(result) {
   if (result.length > 1 && result.length <= 10) {
@@ -34,9 +33,6 @@ function renderResultOfSearch(result) {
   }
 }
 
-=======
-import './js/fetchCountries.js';
-import countryListTpl from './templates/countries.hbs';
-import countryCardTpl from './templates/country.hbs';
-import debounce from 'lodash.debounce';
->>>>>>> parent of 150f73b (almost)
+
+
+

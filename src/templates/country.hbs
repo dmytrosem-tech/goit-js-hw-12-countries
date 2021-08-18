@@ -1,12 +1,12 @@
 <h1 class='title'>{{name}}</h1>
-<div class='container'>
+<div class='parameters-container'>
   <div class='info'>
-    <p><b>Capital:</b>{{capital}}</p>
-    <p><b>Population:</b>{{population}}</p>
-    <p><b>Languages:</b></p>
+    <p class='info__item'><b>Capital: </b>{{capital}}</p>
+    <p class='info__item'><b>Population: </b>{{population}}</p>
+    <p class='info__item'><b>Languages: </b></p>
     <ul>
       {{#each languages}}
-        <li class='item'>{{this.name}}</li>
+        <li class='info__languages'>{{this.name}}</li>
       {{/each}}
     </ul>
   </div>
