@@ -1,4 +1,5 @@
 import './css/styles.css';
+<<<<<<< HEAD
 import countryListTpl from './templates/countries.hbs';
 import countryCardTpl from './templates/country.hbs';
 import debounce from 'lodash.debounce';
@@ -33,3 +34,9 @@ function renderResultOfSearch(result) {
   }
 }
 
+=======
+import './js/fetchCountries.js';
+import countryListTpl from './templates/countries.hbs';
+import countryCardTpl from './templates/country.hbs';
+import debounce from 'lodash.debounce';
+>>>>>>> parent of 150f73b (almost)
